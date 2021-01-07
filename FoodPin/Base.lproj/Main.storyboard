@@ -18,7 +18,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--FoodPin-->
+        <!--Hualien Tourist Guide-->
         <scene sceneID="Aux-Jq-OMh">
             <objects>
                 <tableViewController id="u6K-Sn-9bi" customClass="RestaurantTableViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
@@ -91,7 +91,7 @@
                             <outlet property="delegate" destination="u6K-Sn-9bi" id="juU-fL-jpn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="FoodPin" id="CeX-Et-aed">
+                    <navigationItem key="navigationItem" title="Hualien Tourist Guide" id="CeX-Et-aed">
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="OVA-41-Cpd">
                             <connections>
                                 <segue destination="V8o-W5-vvE" kind="presentation" identifier="addRestaurant" id="FR2-PH-bX7"/>
@@ -405,10 +405,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="center" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IG4-kU-G9K">
-                                <rect key="frame" x="98" y="207.5" width="218" height="481"/>
+                                <rect key="frame" x="59" y="-13" width="296" height="922"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLJ-uG-Rcr">
-                                        <rect key="frame" x="0.0" y="0.0" width="180" height="82"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="258" height="164"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Love" image="love"/>
                                         <connections>
@@ -416,7 +416,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5F-1D-FVL">
-                                        <rect key="frame" x="0.0" y="92" width="177" height="83"/>
+                                        <rect key="frame" x="0.0" y="174" width="255" height="166"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Cool" image="cool"/>
                                         <connections>
@@ -424,7 +424,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soC-a8-Yt3">
-                                        <rect key="frame" x="0.0" y="185" width="218" height="86"/>
+                                        <rect key="frame" x="0.0" y="350" width="296" height="172"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Happy" image="happy"/>
                                         <connections>
@@ -432,7 +432,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFh-S0-PYj">
-                                        <rect key="frame" x="0.0" y="281" width="162" height="87"/>
+                                        <rect key="frame" x="0.0" y="532" width="240" height="174"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Sad" image="sad"/>
                                         <connections>
@@ -440,7 +440,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIB-Ba-nIV">
-                                        <rect key="frame" x="0.0" y="378" width="205" height="103"/>
+                                        <rect key="frame" x="0.0" y="716" width="283" height="206"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="Angry" image="angry"/>
                                         <connections>

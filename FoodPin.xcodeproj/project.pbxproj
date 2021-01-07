@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E04147B25A6C32600F40C07 /* weathermodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04147A25A6C32600F40C07 /* weathermodel.swift */; };
 		4E0D3DF8256F3E9D00E04A0E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D3DED256F3E9D00E04A0E /* OFL.txt */; };
 		4E0D3DF9256F3E9D00E04A0E /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D3DEE256F3E9D00E04A0E /* Rubik-BlackItalic.ttf */; };
 		4E0D3DFA256F3E9D00E04A0E /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D3DEF256F3E9D00E04A0E /* Rubik-Light.ttf */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E04147A25A6C32600F40C07 /* weathermodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathermodel.swift; sourceTree = "<group>"; };
 		4E0D3DED256F3E9D00E04A0E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		4E0D3DEE256F3E9D00E04A0E /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
 		4E0D3DEF256F3E9D00E04A0E /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E04147925A6C30100F40C07 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				4E04147A25A6C32600F40C07 /* weathermodel.swift */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
 		4E0D3DEB256F3E4900E04A0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 		4EE817612541277C008B828E /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				4E04147925A6C30100F40C07 /* weather */,
 				4E0D3DEB256F3E4900E04A0E /* Resources */,
 				EAB961AD2566349A0096B862 /* Model */,
 				EAB961AC256634920096B862 /* View */,
@@ -284,6 +295,7 @@
 				4EE817652541277C008B828E /* SceneDelegate.swift in Sources */,
 				4ED46838258AEFEF00EA00D9 /* RoundedTextField.swift in Sources */,
 				4EE817772541293D008B828E /* RestaurantTableViewController.swift in Sources */,
+				4E04147B25A6C32600F40C07 /* weathermodel.swift in Sources */,
 				4E6C84F4257877B000896E88 /* RestaurantDetailSeparatorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
